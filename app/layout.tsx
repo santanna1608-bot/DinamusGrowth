@@ -17,6 +17,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: 'Dinamus Growth | Tráfego Pago & Automação de WhatsApp',
   description: 'Estruturação de campanhas de tráfego pago integradas com automações inteligentes no WhatsApp. Atraia, qualifique e converta leads B2B de forma 100% automática.',
+  icons: {
+    icon: 'https://drive.usercontent.google.com/download?id=1P85-A90mzJlze4Mhnv5r532nOBlvWC89&export=view',
+    shortcut: 'https://drive.usercontent.com/download?id=1P85-A90mzJlze4Mhnv5r532nOBlvWC89&export=view',
+    apple: 'https://drive.usercontent.google.com/download?id=1P85-A90mzJlze4Mhnv5r532nOBlvWC89&export=view',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
