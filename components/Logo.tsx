@@ -7,7 +7,7 @@ interface LogoProps {
 }
 
 export default function Logo({ className = "", iconOnly = false }: LogoProps) {
-  const logoUrl = "https://drive.usercontent.google.com/download?id=1JVzvtOmAsJsXNof3RDDmso5nALp5vjmA&export=view";
+  const logoUrl = "https://drive.usercontent.google.com/download?id=1P85-A90mzJlze4Mhnv5r532nOBlvWC89&export=view";
 
   return (
     <div className={`flex items-center gap-3 select-none ${className}`} id="dinamus-logo-container">
